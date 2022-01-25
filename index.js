@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const schedule = require('./scheduler');
 
 app.listen(3000, () => {
     //

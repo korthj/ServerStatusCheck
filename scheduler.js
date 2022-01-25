@@ -32,6 +32,6 @@ const statusCheckScheduler = () => {
     }catch(err){
         //
         console.log('스케쥴러 에러 -',err);
-    };
+    }; 
 };
 

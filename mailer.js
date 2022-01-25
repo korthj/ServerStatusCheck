@@ -1,5 +1,5 @@
 const mailer = require('nodemailer');
-
+ 
 module.exports = async function main (data){
     //노드 메일러 함수, 본인의 이메일과 비밀번호를 입력해주세요. 
     let transporter = mailer.createTransport({
