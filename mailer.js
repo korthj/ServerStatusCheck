@@ -1,6 +1,6 @@
 const mailer = require('nodemailer');
  
-module.exports = async function main (data){
+module.exports = async function maile (data){
     //노드 메일러 함수, 본인의 이메일과 비밀번호를 입력해주세요. 
     let transporter = mailer.createTransport({
         service: 'gmail',//ex) gmail과 같은 이메일 서비스, 자세한 건 노드 메일러 사이트 참고

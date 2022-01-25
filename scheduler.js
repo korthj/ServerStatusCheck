@@ -1,5 +1,3 @@
-const express = require('express');
-const app = express();
 const mailer = require('./mailer');
 const nodeScheculer = require('node-schedule');
 const request = require('request');
